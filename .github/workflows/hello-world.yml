@@ -13,7 +13,7 @@ jobs:
       # checkout — клонирует репозиторий
       - uses: actions/checkout@v3
       # run – произвольная bash-команда
-      - run: make say-hello
       # ls -la выведет содержимое текущего репозитория
       - run: ls -la
+      - run: make say-hello
 
